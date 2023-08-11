@@ -1,4 +1,10 @@
---constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.5.1/constraints-3.10.txt"
-
+--constraint /usr/local/airflow/dags/constraints.txt
+apache-airflow-providers-slack==7.2.0
 apache-airflow-providers-snowflake==4.0.2
-apache-airflow-providers-mysql==4.0.0
+apache-airflow-providers-oracle==3.6.0
+acryl-datahub[airflow]==0.9.6.2
+acryl-datahub[datahub-rest]==0.9.6.2
+acryl-datahub[dbt]==0.9.6.2
+acryl-datahub==0.9.6.2
+acryl-datahub-airflow-plugin==0.9.6.2
+pandas==1.5.2
