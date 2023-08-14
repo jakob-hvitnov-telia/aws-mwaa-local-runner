@@ -5,4 +5,4 @@ dags/**/*.pyc
 /logs
 /db-data
 .DS_Store
-dags/*.*
+dags/*.py
